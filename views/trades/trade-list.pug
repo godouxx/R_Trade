@@ -1,0 +1,7 @@
+if trades
+  each trade in trades
+    div(class="card trade-element")
+      div(class="card-body")
+        a(class="card-text" href="/trades/edit/" + trade._id)= trade.content
+        button(class="btn btn-danger mt-2 float-end" tradeid=trade._id) x
+          
