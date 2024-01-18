@@ -58,7 +58,7 @@ npm i
 Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navigateur et ajouter le certificat dans les paramètres de sécurité.
 </p>
 <p align="justify">
-Pour chrome/chromium, il faut aller dans <i>"chrome://settings"</i> et aller dans "Privacy and security" et aller dans "Security" et aller dans "Manage certificates" et aller dans "Authorities" et cliquer sur "Import" et sélectionner le certificat "certificat.pem" présent dans le dossier ssl du projet. Ensuite cliquer sur "Open" et cocher les cases "Trust this certificate for identifying websites", "Trust this certificate for identifying email users" et "Trust this certificate for identifying software makers" puis cliquer sur "OK" et redémarrer le navigateur.
+Pour chrome/chromium, il faut aller dans <i>"chrome://settings"</i> et aller dans <i>"Privacy and security"</i> et aller dans <i>"Security"</i> et aller dans <i>"Manage certificates"</i> et aller dans <i>"Authorities"</i> et cliquer sur <i>"Import"</i> et sélectionner le certificat <i>"certificat.pem"</i> présent dans le dossier ssl du projet. Ensuite cliquer sur <i>"Open"</i> et cocher les cases <i>"Trust this certificate for identifying websites"</i>, <i>"Trust this certificate for identifying email users"</i> et <i>"Trust this certificate for identifying software makers"</i> puis cliquer sur <i>"OK"</i> et redémarrer le navigateur.
 </p>
 
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
