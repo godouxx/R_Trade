@@ -64,6 +64,7 @@ Pour chrome/chromium, il faut aller dans <i>"chrome://settings"</i> et aller dan
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
 **3. Lancer l'application**
+
 Pour lancer l'application, il faut exécuter la commande suivante à la racine du projet :
 ```bash
 sudo npm start
