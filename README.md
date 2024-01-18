@@ -1,6 +1,8 @@
-# RTrade
+<div style="text-align:center;">
+    <img src="https://github.com/godouxx/R_Trade/blob/demo/public/images/Rtradelogo.png" width="100">
+</div>
 
-<img src="https://github.com/godouxx/R_Trade/blob/demo/public/images/Rtradelogo.png" width="100">
+# RTrade
 
 ## Introduction
 
