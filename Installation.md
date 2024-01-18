@@ -44,7 +44,7 @@ Pour Chromium, il faut aller dans *"chrome://settings"* et aller dans *"Privacy 
 
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
-Pour chrome, il faut aller dans *"chrome://settings"* et aller dans *"Confidentialité et sécurité"* et aller dans *"Securité"* et aller dans *"Gérer les certificats"* et aller dans *"Autorités de certification racines de confiance"* et cliquer sur *"Importer..."*. Lors du choix du fichier, dans le fichier ssl de bien accepter l'ensemble des types de fichiers. Ensuite, sélectionner le certificat *"monCA.pem"*. Ensuite cliquer sur *"Ouvrir"*. Ensuite, vous arrivez sur la page *"magasin de certificats"* et sélectionner *"placer tous les certificats dans le magasin suivant"* et vérifier que ce soit bien dans *"autorités de certification racine de confiance"*  puis cliquer sur *"OK"* et redémarrer le navigateur.
+Pour chrome, il faut aller dans *"chrome://settings"* et aller dans *"Confidentialité et sécurité"* puis dans *"Securité"*, ensuite dans *"Gérer les certificats"* et enfin cliquer sur *"Autorités de certification racines de confiance"*. Après etre arrivé sur cette page, cliquer sur *"Importer..."*. Lors du choix du fichier, dans le fichier ssl accepter l'ensemble des types de fichiers si cela n'est pas déjà mis par défault. Ensuite, sélectionner le certificat *"monCA.pem"* puis *"l'ouvrir"*. Ensuite, vous arrivez sur la page *"magasin de certificats"* et sélectionner *"placer tous les certificats dans le magasin suivant"* (commande par défault normalement) et vérifier que ce soit bien dans *"autorités de certification racine de confiance"*  puis cliquer sur *"OK"* et redémarrer le navigateur.
 
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
