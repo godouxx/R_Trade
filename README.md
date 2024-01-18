@@ -16,6 +16,7 @@
 <p align="justify">
 Ayant développé l'application RTrade sur Linux, nous allons vous expliquer comment installer l'application sur Linux. Il y a des problèmes de compatibilité avec Windows pour le lancement de l'application suite aux variables d'environnement qui ne sont pas appelées de la même manière sur Windows et Linux.t
 </p>
+
 Pour installer l'application RTrade, il faut suivre les étapes suivantes :
 
 1. Installer les dépendances
