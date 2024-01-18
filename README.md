@@ -61,6 +61,10 @@ Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navig
 Pour chrome/chromium, il faut aller dans <i>"chrome://settings"</i> et aller dans <i>"Privacy and security"</i> et aller dans <i>"Security"</i> et aller dans <i>"Manage certificates"</i> et aller dans <i>"Authorities"</i> et cliquer sur <i>"Import"</i> et sélectionner le certificat <i>"certificat.pem"</i> présent dans le dossier ssl du projet. Ensuite cliquer sur <i>"Open"</i> et cocher les cases <i>"Trust this certificate for identifying websites"</i>, <i>"Trust this certificate for identifying email users"</i> et <i>"Trust this certificate for identifying software makers"</i> puis cliquer sur <i>"OK"</i> et redémarrer le navigateur.
 </p>
 
+<p align="justify">
+Pour chrome, il faut aller dans <i>"chrome://settings"</i> et aller dans <i>"Confidentialité et sécurité"</i> et aller dans <i>"Securité"</i> et aller dans <i>"Gérer les certificats"</i> et aller dans <i>"Autorités de certification racines de confiance"</i> et cliquer sur <i>"Importer..."</i>. Lors du choix du fichier, dans le fichier ssl de bien accepter l'ensemble des types de fichiers. Ensuite, sélectionner le certificat <i>"monCA.pem"</i>. Ensuite cliquer sur <i>"Ouvrir"</i>. Ensuite, vous arrivez sur la page <i>"magasin de certicats"</i> et sélectionner <i>"placer tout les certificats dans le magasin suivant"</i> et verifier que ce soit bien dans <i>"autorités de certification racine de confiance"</i>  puis cliquer sur <i>"OK"</i> et redémarrer le navigateur.
+</p>
+
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
 **3. Lancer l'application**
