@@ -14,7 +14,7 @@
   
 ## Procédure d'installation
 <p align="justify">
-Ayant développé l'application RTrade sur Linux, nous allons vous expliquer comment installer l'application sur Linux. Il y a des problèmes de compatibilité avec Windows pour le lancement de l'application suite aux variables d'environnement qui ne sont pas appelées de la même manière sur Windows et Linux.t
+Ayant développé l'application RTrade sur Linux et Windows, nous allons vous expliquer comment installer l'application sur Linux. Nous allons expliquer les commandes pour procéder à l'installation de notre application
 </p>
 
 Pour installer l'application RTrade, il faut suivre les étapes suivantes :
@@ -22,7 +22,7 @@ Pour installer l'application RTrade, il faut suivre les étapes suivantes :
 **1. Installer les dépendances**
 
 Pour l'utilisation de notre application, il faut utiliser une version de node supérieure ou égale à la version 14.0.0. car nous utilisons syntaxes qui ne sont pas supportées par les versions antérieures. 
-Pour cela vous pouvez installer l'outil de gestion nvm (Node Version Manager) qui permet de gérer les versions de node. Pour cela, il faut exécuter la commande suivante :
+Pour cela vous pouvez installer l'outil de gestion nvm (Node Version Manager) qui permet de gérer les versions de node. Sous Linux il est possible d'exécuter la commande suivante :
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
