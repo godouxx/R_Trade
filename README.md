@@ -53,7 +53,12 @@ ou bien :
 npm i
 ```
 **2. Ajouter le certificat sur votre navigateur pour pouvoir utiliser le HTTPS**
-
+<p align="justify">
+Il est crucial d'intégrer la sécurisation par HTTPS, impliquant l'utilisation d'un certificat SSL/TLS et d'une clé privée, dans un projet de site internet pour plusieurs raisons primordiales. Tout d'abord, HTTPS garantit la confidentialité des données échangées entre le serveur et les utilisateurs en chiffrant les communications. Sans cette protection, les informations telles que les mots de passe, les informations personnelles et les détails de paiement seraient vulnérables aux interceptions malveillantes. De plus, l'utilisation de HTTPS renforce l'intégrité des données en assurant qu'elles ne sont ni altérées ni corrompues pendant leur transfert. La mise en place d'un certificat SSL/TLS avec une clé privée authentifie le site web, établissant ainsi la confiance des utilisateurs en vérifiant l'identité du serveur. Enfin, l'utilisation de HTTPS améliore la visibilité du site web dans les moteurs de recherche, car les sites web sécurisés sont mieux classés que les sites web non sécurisés.
+Cette approche répond aux normes strictes du Règlement général sur la protection des données (RGPD) de l'Union européenne, qui met l'accent sur la protection des données personnelles et la confidentialité. En intégrant HTTPS, le site démontre son engagement envers la sécurité des données, conforme aux principes du RGPD visant à assurer un traitement transparent et sécurisé des informations personnelles. Ainsi, l'implémentation de HTTPS avec une clé privée offre non seulement une sécurité robuste et renforce la confiance des utilisateurs, mais elle s'aligne également sur les normes légales essentielles de protection des données qui sont cruciales dans l'environnement réglementaire actuel.
+Le certificat est présent dans le dossier ssl du projet. Il faut donc le copier dans le dossier ssl de votre navigateur.
+Pour faire fonctionner notre site en local on utilise une clé privée et un certificat auto-signé. Il faudra donc avoir la clé privée et le certificat sur votre navigateur pour pouvoir utiliser le HTTPS. La clé privée vous a été transmise par mail. Le certificat est présent dans le dossier ssl du projet. Il faut donc le copier dans le dossier ssl de votre navigateur (il doit porter le nom local.key).
+</p>
 <p align="justify">
 Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navigateur et ajouter le certificat dans les paramètres de sécurité.
 </p>
@@ -69,9 +74,32 @@ Il faut redémarrer le navigateur pour que les changements soient pris en compte
 
 **3. Lancer l'application**
 
+***Linux :***
+
 Pour lancer l'application, il faut exécuter la commande suivante à la racine du projet :
 ```bash
 sudo npm start
 ```
-Cela va lancer l'application sur
+Cela va lancer l'application sur l'environnement de développement. Pour accéder à l'application, il faut aller sur l'adresse suivante : https://localhost
+Il utilise le port 443 et 80. Il y a une redirection automatique du port 80 (http) vers le port 443. Il faut donc que le port 80 soit libre pour pouvoir lancer l'application.
+Il est également possible de lancer l'application sur un autre port en exécutant la commande suivante :
+```bash
+sudo npm run start:prod
+```
+Cela va lancer l'application sur l'environnement de production. Cependant les deux environnements sont pour l'instant identiques.
 
+***Windows :***
+Pour lancer l'application, il faut exécuter la commande suivante à la racine du projet :
+```bash
+npm run startWin:dev
+```
+Cela va lancer l'application sur l'environnement de développement. Pour accéder à l'application, il faut aller sur l'adresse suivante : https://localhost
+Il utilise le port 443 et 80. Il y a une redirection automatique du port 80 (http) vers le port 443. Il faut donc que le port 80 soit libre pour pouvoir lancer l'application.
+Il est également possible de lancer l'application sur un autre port en exécutant la commande suivante :
+```bash
+npm run startWin:prod
+```
+Cela va lancer l'application sur l'environnement de production. Cependant les deux environnements sont pour l'instant identiques.
+
+**4. Manuel d'utilisation**
+Le manuel d'utilisation se situe dans le fichier USER_MANUAL.md à la racine du projet.
