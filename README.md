@@ -1,6 +1,6 @@
-<div style="text-align:center;">
+<p align="center">
     <img src="https://github.com/godouxx/R_Trade/blob/demo/public/images/Rtradelogo.png" width="100">
-</div>
+</p>
 
 # RTrade
 
