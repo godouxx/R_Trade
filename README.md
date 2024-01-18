@@ -1,5 +1,5 @@
 # RTrade
-![alt text](image.jpg)
+![alt text]([image.jpg](https://github.com/godouxx/R_Trade/blob/demo/public/images/Rtradelogo.png))
 
 ## Introduction
 
