@@ -4,7 +4,7 @@ Ayant développé l'application RTrade sur Linux, nous allons vous expliquer com
 
 Pour installer l'application RTrade, il faut suivre les étapes suivantes :
 
-1. Installer les dépendances
+**1. Installer les dépendances**
 
 Pour l'utilisation de notre application, il faut utiliser une version de node supérieure ou égale à la version 14.0.0. car nous utilisons syntaxes qui ne sont pas supportées par les versions antérieures. 
 Pour cela vous pouvez installer l'outil de gestion nvm (Node Version Manager) qui permet de gérer les versions de node. Pour cela, il faut exécuter la commande suivante :
@@ -38,13 +38,13 @@ ou bien :
 npm i
 ```
 
-2. Ajouter le certificat sur votre navigateur pour pouvoir utiliser le HTTPS
+**2. Ajouter le certificat sur votre navigateur pour pouvoir utiliser le HTTPS**
 Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navigateur et ajouter le certificat dans les paramètres de sécurité.
-Pour chrome/chromium, il faut aller dans "chrome://settings" et aller dans "Privacy and security" et aller dans "Security" et aller dans "Manage certificates" et aller dans "Authorities" et cliquer sur "Import" et sélectionner le certificat "certificat.pem" présent dans le dossier ssl du projet. Ensuite cliquer sur "Open" et cocher les cases "Trust this certificate for identifying websites", "Trust this certificate for identifying email users" et "Trust this certificate for identifying software makers" puis cliquer sur "OK" et redémarrer le navigateur.
+Pour chrome/chromium, il faut aller dans *"chrome://settings"* et aller dans *"Privacy and security"* et aller dans *"Security"* et aller dans *"Manage certificates"* et aller dans *"Authorities"* et cliquer sur *"Import"* et sélectionner le certificat *"certificat.pem"* présent dans le dossier ssl du projet. Ensuite cliquer sur *"Open"* et cocher les cases *"Trust this certificate for identifying websites"*, *"Trust this certificate for identifying email users"* et *"Trust this certificate for identifying software makers"* puis cliquer sur *"OK"* et redémarrer le navigateur.
 
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
-3. Lancer l'application
+**3. Lancer l'application**
 Pour lancer l'application, il faut exécuter la commande suivante à la racine du projet :
 ```bash
 sudo npm start
