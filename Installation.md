@@ -40,7 +40,11 @@ npm i
 
 **2. Ajouter le certificat sur votre navigateur pour pouvoir utiliser le HTTPS**
 Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navigateur et ajouter le certificat dans les paramètres de sécurité.
-Pour chrome/chromium, il faut aller dans *"chrome://settings"* et aller dans *"Privacy and security"* et aller dans *"Security"* et aller dans *"Manage certificates"* et aller dans *"Authorities"* et cliquer sur *"Import"* et sélectionner le certificat *"certificat.pem"* présent dans le dossier ssl du projet. Ensuite cliquer sur *"Open"* et cocher les cases *"Trust this certificate for identifying websites"*, *"Trust this certificate for identifying email users"* et *"Trust this certificate for identifying software makers"* puis cliquer sur *"OK"* et redémarrer le navigateur.
+Pour Chromium, il faut aller dans *"chrome://settings"* et aller dans *"Privacy and security"* et aller dans *"Security"* et aller dans *"Manage certificates"* et aller dans *"Autorithies"* et cliquer sur *"Import"* et sélectionner le certificat *"certificat.pem"* présent dans le dossier ssl du projet. Ensuite cliquer sur *"Open"* et cocher les cases *"Trust this certificate for identifying websites"*, *"Trust this certificate for identifying email users"* et *"Trust this certificate for identifying software makers"* puis cliquer sur *"OK"* et redémarrer le navigateur.
+
+Il faut redémarrer le navigateur pour que les changements soient pris en compte.
+
+Pour chrome, il faut aller dans *"chrome://settings"* et aller dans *"Confidentialité et sécurité"* et aller dans *"Securité"* et aller dans *"Gérer les certificats"* et aller dans *"Autorités de certication racines de confiance"* et cliquer sur *"Importer..."*. Lors du choix du fichier, dans le fichier ssl de bien accepter l'ensemble des types de fichiers. Ensuite, sélectionner le certificat *"monCA.pem"*. Ensuite cliquer sur *"Ouvrir"*. Ensuite, vous arrivez sur la page *"magasin de certicats"* et sélectionner *"placer tout les certificats dans le magasin suivant"* et verifier que ce soit bien dans *"autorités de certfication racine de confiance"*  puis cliquer sur *"OK"* et redémarrer le navigateur.
 
 Il faut redémarrer le navigateur pour que les changements soient pris en compte.
 
