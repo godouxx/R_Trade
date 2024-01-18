@@ -6,8 +6,8 @@
   "scripts": {
     "start": "NODE_ENV=development nodemon ./bin/www",
     "start:prod": "NODE_ENV=production nodemon ./bin/www",
-    "startWin:dev": "set NODE_ENV=development && nodemon ./bin/www",
-    "startWin:prod" : "set NODE_ENV=production && nodemon ./bin/www",
+    "startWin:dev": "set NODE_ENV=development&& nodemon ./bin/www",
+    "startWin:prod" : "set NODE_ENV=production&& nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
