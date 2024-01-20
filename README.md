@@ -11,7 +11,7 @@
   
 </p>
 
-  **En résumé notre application souhaite mettre en lien des étudiants en s'appuyant sur des valeurs d'entraide et de partage.**
+  **En résumé notre application souhaite mettre en lien des étudiants de Rennes en s'appuyant sur des valeurs d'entraide et de partage.**
   
 ## Procédure d'installation
 <p align="justify">
