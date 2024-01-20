@@ -102,4 +102,7 @@ npm run startWin:prod
 Cela va lancer l'application sur l'environnement de production. Cependant les deux environnements sont pour l'instant identiques.
 
 **4. Manuel d'utilisation**
-Le manuel d'utilisation se situe dans le fichier USER_MANUAL.md à la racine du projet.
+Le manuel d'utilisation se situe dans le dossier Rapport sous le nom USER_MANUAL.md. Ce manuel d'utilisation décrit le fonctionnement de l'application et les différentes fonctionnalités de l'application ainsi que le parcours utilisateur.
+
+**5. Planification du projet**
+La planification du projet se situe dans le dossier Rapport sous le nom ROADMAP.md. Ce document décrit la planification du projet et les différentes étapes de développement du projet à suivre pour le prochain semestre.
