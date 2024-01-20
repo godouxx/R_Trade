@@ -15,10 +15,10 @@
   
 ## Procédure d'installation
 <p align="justify">
-Ayant développé l'application RTrade sur Linux et Windows, nous allons vous expliquer comment installer l'application sur Linux. Nous allons expliquer les commandes pour procéder à l'installation de notre application
+Ayant développé l'application RTrade sur Linux et Windows, nous allons vous expliquer comment installer l'application. Nous avons choisi d'expliquer la méthode d'installation avec les commandes sous Linux. Pour l'installation sous Windows, il faudra trouver les commandes ou les binaires équivalents.
 </p>
 
-Pour installer l'application RTrade, il faut suivre les étapes suivantes :
+Pour installer l'application RTrade sur Linux, il faut suivre les étapes suivantes :
 
 **1. Installer les dépendances**
 
@@ -34,7 +34,6 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 Puis, il faut exécuter la commande suivante pour installer la dernière version stable de node :
 ```bash
 nvm install stable
-
 ```
 Si vous avez déjà installé node, vous pouvez exécuter la commande suivante pour utiliser la dernière version stable de node :
 ```bash
@@ -55,10 +54,9 @@ npm i
 ```
 **2. Ajouter le certificat sur votre navigateur pour pouvoir utiliser le HTTPS**
 <p align="justify">
-Il est crucial d'intégrer la sécurisation par HTTPS, impliquant l'utilisation d'un certificat SSL/TLS et d'une clé privée, dans un projet de site internet pour plusieurs raisons primordiales. Tout d'abord, HTTPS garantit la confidentialité des données échangées entre le serveur et les utilisateurs en chiffrant les communications. Sans cette protection, les informations telles que les mots de passe, les informations personnelles et les détails de paiement seraient vulnérables aux interceptions malveillantes. De plus, l'utilisation de HTTPS renforce l'intégrité des données en assurant qu'elles ne sont ni altérées ni corrompues pendant leur transfert. La mise en place d'un certificat SSL/TLS avec une clé privée authentifie le site web, établissant ainsi la confiance des utilisateurs en vérifiant l'identité du serveur. Enfin, l'utilisation de HTTPS améliore la visibilité du site web dans les moteurs de recherche, car les sites web sécurisés sont mieux classés que les sites web non sécurisés.
-Cette approche répond aux normes strictes du Règlement général sur la protection des données (RGPD) de l'Union européenne, qui met l'accent sur la protection des données personnelles et la confidentialité. En intégrant HTTPS, le site démontre son engagement envers la sécurité des données, conforme aux principes du RGPD visant à assurer un traitement transparent et sécurisé des informations personnelles. Ainsi, l'implémentation de HTTPS avec une clé privée offre non seulement une sécurité robuste et renforce la confiance des utilisateurs, mais elle s'aligne également sur les normes légales essentielles de protection des données qui sont cruciales dans l'environnement réglementaire actuel.
-Le certificat est présent dans le dossier ssl du projet. Il faut donc le copier dans le dossier ssl de votre navigateur.
-Pour faire fonctionner notre site en local on utilise une clé privée et un certificat auto-signé. Il faudra donc avoir la clé privée et le certificat sur votre navigateur pour pouvoir utiliser le HTTPS. La clé privée vous a été transmise par mail. Le certificat est présent dans le dossier ssl du projet. Il faut donc le copier dans le dossier ssl de votre navigateur (il doit porter le nom local.key).
+Il est crucial d'intégrer la sécurisation par HTTPS, impliquant l'utilisation d'un certificat SSL/TLS et d'une clé privée, dans un projet de site internet pour plusieurs raisons. Tout d'abord, HTTPS garantit la confidentialité des données échangées entre le serveur et les utilisateurs en chiffrant les communications. Sans cette protection, les informations telles que les mots de passe et les informations personnelles  seraient vulnérables aux interceptions malveillantes. De plus, l'utilisation de HTTPS renforce l'intégrité des données en assurant qu'elles ne sont ni altérées ni corrompues pendant leur transfert. La mise en place d'un certificat SSL/TLS avec une clé privée authentifie le site web, établissant ainsi la confiance des utilisateurs en vérifiant l'identité du serveur. Enfin, l'utilisation de HTTPS améliore la visibilité du site web dans les moteurs de recherche, car les sites web sécurisés sont mieux classés que les sites web non sécurisés.
+L'implémentation du HTTPS répond aux normes du Règlement général sur la protection des données (RGPD) de l'Union européenne, qui met l'accent sur la protection des données personnelles et la confidentialité. Ainsi, l'implémentation de HTTPS avec une clé privée offre non seulement une sécurité robuste et renforce la confiance des utilisateurs, mais elle s'aligne également sur les normes légales de protection des données qui sont cruciales.
+Pour faire fonctionner notre site en local on utilise une clé privée et un certificat auto-signé. Il faudra donc avoir la clé privée pour faire fonctionner notre site. Le certificat doit être ajouté le navigateur pour pouvoir utiliser le HTTPS sans avoir de warning sur votre navigateurs internet. La clé privée vous a été transmise par mail et sera a copié dans le dossier ssl (il doit porter le nom local.key).
 </p>
 <p align="justify">
 Pour ajouter le certificat sur votre navigateur, il faudra aller sur votre navigateur et ajouter le certificat dans les paramètres de sécurité.
@@ -71,8 +69,6 @@ Pour chrome/chromium, il faut aller dans <i>"chrome://settings"</i> et aller dan
 Pour chrome, il faut aller dans <i>"chrome://settings"</i> et aller dans <i>"Confidentialité et sécurité"</i> et aller dans <i>"Securité"</i> et aller dans <i>"Gérer les certificats"</i> et aller dans <i>"Autorités de certification racines de confiance"</i> et cliquer sur <i>"Importer..."</i>. Lors du choix du fichier, dans le fichier ssl de bien accepter l'ensemble des types de fichiers. Ensuite, sélectionner le certificat <i>"monCA.pem"</i>. Ensuite cliquer sur <i>"Ouvrir"</i>. Ensuite, vous arrivez sur la page <i>"magasin de certicats"</i> et sélectionner <i>"placer tout les certificats dans le magasin suivant"</i> et verifier que ce soit bien dans <i>"autorités de certification racine de confiance"</i>  puis cliquer sur <i>"OK"</i> et redémarrer le navigateur.
 </p>
 
-Il faut redémarrer le navigateur pour que les changements soient pris en compte.
-
 **3. Lancer l'application**
 
 ***Linux :***
@@ -83,7 +79,8 @@ sudo npm start
 ```
 Cela va lancer l'application sur l'environnement de développement. Pour accéder à l'application, il faut aller sur l'adresse suivante : https://localhost
 Il utilise le port 443 et 80. Il y a une redirection automatique du port 80 (http) vers le port 443. Il faut donc que le port 80 soit libre pour pouvoir lancer l'application.
-Il est également possible de lancer l'application sur un autre port en exécutant la commande suivante :
+
+Il est également possible de lancer l'application d'une autre manière :
 ```bash
 sudo npm run start:prod
 ```
@@ -95,8 +92,8 @@ Pour lancer l'application, il faut exécuter la commande suivante à la racine d
 npm run startWin:dev
 ```
 Cela va lancer l'application sur l'environnement de développement. Pour accéder à l'application, il faut aller sur l'adresse suivante : https://localhost
-Il utilise le port 443 et 80. Il y a une redirection automatique du port 80 (http) vers le port 443. Il faut donc que le port 80 soit libre pour pouvoir lancer l'application.
-Il est également possible de lancer l'application sur un autre port en exécutant la commande suivante :
+Il utilise le port 443 et 80. Il y a une redirection automatique du port 80 (http) vers le port 443(https). Il faut donc que le port 80 soit libre pour pouvoir lancer l'application.
+Il est également possible de lancer l'application différement :
 ```bash
 npm run startWin:prod
 ```
@@ -105,5 +102,7 @@ Cela va lancer l'application sur l'environnement de production. Cependant les de
 **4. Manuel d'utilisation**
 Le manuel d'utilisation se situe dans le dossier Rapport sous le nom USER_MANUAL.md. Ce manuel d'utilisation décrit le fonctionnement de l'application et les différentes fonctionnalités de l'application ainsi que le parcours utilisateur.
 
+**5. Planification du projet**
+La planification du projet se situe dans le dossier Rapport sous le nom ROADMAP.md. Ce document décrit la planification du projet et les différentes étapes de développement du projet à suivre pour le prochain semestre.
 **5. Planification du projet**
 La planification du projet se situe dans le dossier Rapport sous le nom ROADMAP.md. Ce document décrit la planification du projet et les différentes étapes de développement du projet à suivre pour le prochain semestre.
