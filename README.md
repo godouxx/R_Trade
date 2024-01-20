@@ -7,7 +7,8 @@
 ## Introduction
 
 <p align="justify">
-  Notre application RTrade mettra en ligne des services variés comme de la coiffure, de la manucure ou des cours particuliers qui pourront être proposés par les étudiants qui le souhaitent. Les personnes intéressées par ces annonces pourront donc accéder à ces services en utilisant des jetons propres à l'application, évitant ainsi les échanges d'argent. Les étudiants proposant les services seront donc récompensés avec ces jetons qu'ils pourront à leur tour utiliser afin de profiter de services d'autres étudiants. Des notes seront attribuées aux étudiants prestataires et clients des services, permettant la mise en place d'un système de référencement. Pour l'instant, nous comptons proposer notre application dans la ville de Rennes uniquement afin d'en évaluer ses forces et ses défauts.
+    De nos jours, on entend de plus en plus parler de précarité étudiante. En effet, beaucoup d'étudiants ont du mal a s'en sortir selon ce que les bourses ou leur parents leur versent. Ces étudiants sont donc contraints la plupart du temps à se priver. Nous avons décidé de nous joindre à la cause en proposant RTrade, une application d'échange de services entre étudiants qui s'appuie sur des valeurs d'entraide et de partage. Elle proposerait des services de manucure, coiffure, tatouages, cuisine, bricolage...  Cette application serait dédié aux étudiants de Rennes et de sa périphérie, notre cible est donc locale dans un premier temps.
+  
 </p>
 
   **En résumé notre application souhaite mettre en lien des étudiants en s'appuyant sur des valeurs d'entraide et de partage.**
